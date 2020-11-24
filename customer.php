@@ -1,13 +1,15 @@
 <?php
   include('includes/config.php');
   // Check GET request id param
-  if(isset($_GET['id']) && (int)$_GET['id'] > 0) {
+  if(isset($_GET['id'])) {
     // Escape any sensitive sql characters
     $id = mysqli_real_escape_string($conn, $_GET['id']);
    
+    // Convert inputed id to a number and store in a variable
+    $intid = (int) $id;
 
     // Make sql to be used for query
-    $sql = 'SELECT * FROM customer WHERE id = '.$id;
+    $sql = 'SELECT * FROM customer WHERE id = '.$intid;
 
     // Get the query result
     $result = mysqli_query($conn, $sql);
