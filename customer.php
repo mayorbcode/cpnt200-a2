@@ -8,7 +8,7 @@
     // Convert inputed id to a number and store in a variable
     $intid = (int) $id;
 
-    // Check for the legnth of inputed id and store in a variable (i will probably just use this for when length is 0)
+    // Check for the legnth of inputed id and store in a variable (i will probably just use this for when length is 0 i.e. no id is inputed)
     $check = (strlen($id));
     // test to see if $check is working
     // var_dump($check);
