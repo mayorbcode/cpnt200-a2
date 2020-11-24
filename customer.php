@@ -8,6 +8,11 @@
     // Convert inputed id to a number and store in a variable
     $intid = (int) $id;
 
+    // Check for the legnth of inputed id and store in a variable (i will probably just use this for when length is 0)
+    $check = (strlen($id));
+    // test to see if $check is working
+    // var_dump($check);
+
     // Make sql to be used for query
     $sql = 'SELECT * FROM customer WHERE id = '.$intid;
 
@@ -57,7 +62,7 @@
         </ul>
       <?php else: ?>
         <div class="customer-error">
-          <h2>Cannot find a customer with the id of <?php echo $_GET['id']?></h2>
+          <h2>Cannot find a customer with <?php if ($check == 0) {echo "no id";}else{echo 'an id of '.$_GET['id'];}?></h2>
           <p><a href="index.php">Click Here</a> to get back to the list of all customers</p>
       </div>
       
