@@ -4,8 +4,10 @@ by [Patrick Bello](https://github.com/mayorbcode)
 [Tony Grimes' in-class tutorials](https://github.com/sait-wbdv/php-in-class/tree/main/week11f)  
 [Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)'s [PHP Tutorial videos](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gksOX3Kd9KPo-O68ncT05o) and [Sample Codes](https://github.com/iamshaunjp/php-mysql-tutorial/branches/stale)  
 [Aviano Database](https://github.com/sait-wbdv/assessments/blob/master/cpnt200/assignment-2/import-db.sql) by [Harsh Desai](https://github.com/hurshd0)  
+[How to upload a PHP website to heroku & setup a remote MySQL database](https://www.youtube.com/watch?v=I4Ra-80O3R4) by [Trevoir Williams](https://www.youtube.com/channel/UCiDaQZu0xwPT-qJoTDMYMCg)  
 
 ## [Github repository](https://github.com/mayorbcode/cpnt200-a2)  
+## [Heroku App URL](https://cpnt200-a2.herokuapp.com/)  
 
 ## Objectives  
 &nbsp;&nbsp;The purpose of this project is to create a mock Administrative panel with the following pages:  
