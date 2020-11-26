@@ -9,5 +9,6 @@ $conn = mysqli_connect('r1bsyfx4gbowdsis.cbetxkdyhwsb.us-east-1.rds.amazonaws.co
 // check connection
 if(!$conn){
   header('Location: error.php');
+  exit;
 }
 ?>
