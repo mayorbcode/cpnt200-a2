@@ -24,14 +24,22 @@ body {
 
 .main h1 {
   text-align: center;
+  font-size: 3rem;
+  font-style: italic;
 }
 
 .customers {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 0 auto;
+  border-radius: 8px;
+
+  box-shadow: 5px 5px 5px 5px lightgray;
+
+  background-color: #ececec;
 
   display: grid;
   grid-template-columns: repeat(3, minmax(250px, 1fr));
+  
   max-width: 1500px;
 }
 
@@ -79,16 +87,21 @@ body {
 }
 
 .customer-main h2 {
-  font-size: 36px;
+  font-size: 2.2rem;
+  font-style: italic;
 }
 
 .customer-wrapper {
   display: flex;
 
-  border: 1px solid black;
+  border-radius: 10px;
+
   width: 400px;
   max-width: 95vw;
-  min-height: 300px;
+  min-height: 350px;
+
+  background-color: #ececec;
+  box-shadow: 4px 4px 4px 4px lightgray;
 }
 
 .customer-wrapper ul {
@@ -122,6 +135,7 @@ body {
 
   text-align: center;
   font-size: 4rem;
+  font-style: oblique;
 
   color: white;
   text-shadow: 2px 2px black;
@@ -185,11 +199,20 @@ footer {
     margin-bottom: 50px;
     border: 0;
     
+    box-shadow: none;
+
     grid-gap: 30px;
+    background-color: white;
   }
 
   .name-wrapper, .phone-wrapper, .email-wrapper {
-    border: 1px solid black;
+    border-radius: 6px;
+
+    box-shadow: 5px 5px 5px 5px lightgray;
+
+    background-color: #ececec;
+
+    border: none;
   }
 }
 
